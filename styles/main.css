@@ -1,12 +1,12 @@
 body{
   
   font-family: "Arial";
-  background-image: url(paper.gif); 
+  background-color: #ccccc; 
   }
 
   div{
 
-    background-color: #f6e3b9;
+    background-color: #fce3b9;
     position: absolute; 
     width: 80%;
     margin-left: 100px;
