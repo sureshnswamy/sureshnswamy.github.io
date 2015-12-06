@@ -1,14 +1,37 @@
+<!DOCTYPE html>
+
 body{
   
   font-family: "Arial";
-  background-color: #cccccc; 
+  background-color: #FDF5E6; 
   }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li { float :left }
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+h1 {
+    color:#660066;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
 
   div{
 
-    background-color: #fce3b9;
+    background-color:   #808000;
     position: absolute; 
-    width: 80%;
+    width: 70%;
     margin-left: 100px;
     margin-top: 100px;
     padding: 20px;
@@ -21,5 +44,5 @@ a{
 
 a:hover{
 
-  color: brown;
+  color: orangered;
 }
