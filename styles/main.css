@@ -1,48 +1,93 @@
-<!DOCTYPE html>
+
+@import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua);
+
+.banner{
+  background-color: #FF9233 ;
+  Font-family:'Inknut Antiqua', serif;
+  width:60%;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 60px;
+
+  }
 
 body{
-  
-  font-family: "Arial";
-  background-color: #FDF5E6; 
+
+  background-color: black;
   }
+
+<!h1 {
+    <!color:#33BEBE;
+    text-align: center;
+      }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
-li { float :left }
-li a {
+
+ul li { 
+    display: inline-block;
+    float:left}
+
+ul li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+   <! background-color: #F0E68C;
+    text-decoration: none;
+    Font-family:'Inknut Antiqua', Latin;
+    color: white;
 }
-h1 {
-    color:#660066;
-    text-align: center;
-}
+
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+.active {
+    background-color: #a87bc1;
+  }
+.col1{
+    background-color:   #FFFFFF;
+    width: 70%;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+  }
 
 p {
     font-family: "Times New Roman";
     font-size: 20px;
+    color: #000080
 }
 
-  div{
+p1{ font-size: small;}
 
-    background-color:   #808000;
-    position: absolute; 
-    width: 70%;
-    margin-left: 100px;
-    margin-top: 100px;
-    padding: 20px;
+<!a{  color: white;}
+
+<!a:hover{  color: orangered;}
+
+.img{
+    border-radius: 20px;
+    border:4px solid #173e43
+    width: 40%;
+    height:40%;
   }
 
-a{
-
-  color: blue;
-}
-
-a:hover{
-
-  color: orangered;
+.footer {
+    background-color:#138808;
+    border-radius: 20px;
+    width:33%;
+    color:white;
+    clear:both;
+    text-align:center;
+    margin:50px;    
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
