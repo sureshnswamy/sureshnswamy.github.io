@@ -3,115 +3,113 @@
 .banner {
   background-color: #FF9233 ;
   Font-family:'Inknut Antiqua', serif;
-  width:60%;
+  width: 60%;
   text-align: center;
   border-radius: 20px;
   margin-right: auto;
   margin-left: auto;
   }
 
-body{
+body {
 
   background-color: black;
   }
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+
     }
 
 ul li { 
-    display: inline;
-    float:left}
+  display: inline;
+  float: left;}
 
 ul li a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    Font-family:'Inknut Antiqua', serif;
-    color: white;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  Font-family:'Inknut Antiqua', serif; 
+  color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
   }
 
 .active {
     background-color: #a87bc1;
   }
 
-.container{
-    width: 900px;
-    margin:auto;
-    position: relative;
-
+.container {
+  margin: auto;
+  position: relative;
+  width: 900px;
 }
 
-.listbox{
-  width:150px;
+.listbox {
   left: 800px;
-  top:150px;
   margin-left: 0;
   position: absolute;
-  }  
+  top: 150px;
+  width: 150px;
+  }
 
-.listcontent{
+.listcontent {
   padding: 0;
   position: absolute;
 }
 
-.listcontent ul{
-  height:50px;
-  overflow: scroll;
-  overflow-x: hidden;
-  list-style-type: none;
-  margin:0;
-  padding: 0;
+.listcontent ul {
   background-color: #3399ff;
   border-radius: 10px;
- }
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  }
 
 .listcontent ul li a {
-    padding: 8px;
-    text-decoration: none;
-    Font-family: "georgia";
-    font-size: 15px;
+  Font-family: "georgia";
+  font-size: 15px;
+  padding: 8px;
+  text-decoration: none;
    }
 
-.col1{
-    background-color:   #FFFFFF;
-    width: 70%;
-    padding: 20px;
-    margin: auto;
-    border-radius: 25px;
+.col1 {
+  background-color:   #FFFFFF;
+  margin: auto;
+  padding: 20px;
+  width: 70%;
+  border-radius: 25px;
   }
 
 p {
-    font-family: "Times New Roman";
-    font-size: 20px;
-    color: #000080
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: #000080
 }
 
-p1{ font-size: small;}
-
-.image img{ position: absolute;
-        left: 800px;
-        top:0px;
-        border-radius: 10px;
+.image img { position: absolute;
+  left: 800px;
+  top: 0;
+  border-radius: 10px;
 }
 
 .footer {
-    background-color:#138808;
-    border-radius: 20px;
-    width:33%;
-    color:white;
-    clear:both;
-    text-align:center;
-    margin:50px;    
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-}
+  background-color:#138808;
+  border-radius: 20px;
+  color:white;
+  margin: 50px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 33%;
+  clear: both;
+  text-align: center;
+  }
