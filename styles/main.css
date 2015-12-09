@@ -1,85 +1,117 @@
 @import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua);
 
 .banner {
-  Font-family: 'Inknut Antiqua', serif;
-  background-color: #FF9233;
-  border-radius: 20px;
-  height: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #FF9233 ;
+  Font-family:'Inknut Antiqua', serif;
+  width:60%;
   text-align: center;
-  width: 60%;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
   }
 
-body {
+body{
 
   background-color: black;
   }
 
-ul li {
-  display: inline-block
-  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+ul li { 
+    display: inline;
+    float:left}
 
 ul li a {
-  Font-family: 'Inknut Antiqua', serif;
-  color: white;
-  display: block;
-  float: left;
-  margin: 0;
-  overflow: hidden;
-  padding: 8px;
-  text-decoration: none;
-  }
-
-  
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    Font-family:'Inknut Antiqua', serif;
+    color: white;
+}
 
 li a:hover:not(.active) {
-  background-color: #111;
+    background-color: #111;
   }
 
 .active {
-  background-color: #a87bc1;
+    background-color: #a87bc1;
   }
 
-.container {
-  margin: auto;
-  position: relative;
-  width: 900px;
-  }
+.container{
+    width: 900px;
+    margin:auto;
+    position: relative;
 
-.col1 {
-  background-color:   #FFFFFF;
-  border-radius: 25px;
-  margin: auto;
-  padding: 20px;
-  width: 70%;
+}
+
+.listbox{
+  width:150px;
+  left: 800px;
+  top:150px;
+  margin-left: 0;
+  position: absolute;
+  }  
+
+.listcontent{
+  padding: 0;
+  position: absolute;
+}
+
+.listcontent ul{
+  height:50px;
+  overflow: scroll;
+  overflow-x: hidden;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  background-color: #3399ff;
+  border-radius: 10px;
+ }
+
+.listcontent ul li a {
+    padding: 8px;
+    text-decoration: none;
+    Font-family: "georgia";
+    font-size: 15px;
+   }
+
+.col1{
+    background-color:   #FFFFFF;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
   }
 
 p {
-  color: #000080
-  font-family': Times New Roman';
-  font-size: 20px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: #000080
 }
 
-p1 { font-size: small;}
+p1{ font-size: small;}
 
-.image img {
-  border-radius: 10px;
-  left: 800px;
-  position: absolute;
-  top: 0;
-  }
+.image img{ position: absolute;
+        left: 800px;
+        top:0px;
+        border-radius: 10px;
+}
 
 .footer {
-  background-color: #138808;
-  border-radius: 20px;
-  color: white;
-  clear: both;
-  text-align: center;
-  margin: 50px;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 33%;
-  }
-
+    background-color:#138808;
+    border-radius: 20px;
+    width:33%;
+    color:white;
+    clear:both;
+    text-align:center;
+    margin:50px;    
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
