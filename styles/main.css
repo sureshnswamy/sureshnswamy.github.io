@@ -120,6 +120,7 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffffff; 
   background: url('../images/highlife.jpg');
+  background-repeat: no-repeat;
 }
 
 
