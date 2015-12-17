@@ -1,5 +1,4 @@
--webkit-background-size: cover;
--moz-background-size: cover;
+
 .container {
   position: relative;
   width: 100%;
@@ -13,10 +12,6 @@
   float: left;
   box-sizing: border-box; }
 
-.header {
-  background-image: url(images/depthofcolour.png) no-repeat;
-  position: absolute;
-}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -72,7 +67,7 @@
   .offset-by-one-half.column,   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
-
+/*
 .navigation ul{
   margin: 0;
   padding: 0;
@@ -83,7 +78,7 @@
   display: inline-block;
   float: right;
 }
-
+*/
 /*.navigation a {
   background: #395870;
   background: linear-gradient(#49708f, #293f50);
@@ -144,7 +139,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 /*Links*/
-.aouthor p {
+.author p {
   overflow: hidden;
   
 }
@@ -167,7 +162,7 @@ a:hover {
  /*Buttons*/
 .button {
   display: inline-block;
-  height: 38px;
+  height: 28px;
   padding: 0 30px;
   /*color: #555;*/
   text-align: center;
@@ -201,9 +196,9 @@ a:hover {
 
 
  /*Lists*/
-ul {
+/*ul {
+  display: inline-block;
   list-style: none;
-  overflow: auto;
    }
 ol {
   list-style: none; }
@@ -217,7 +212,135 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; }*/
+
+/*Strip the ul of padding and list styling*/
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+  display:inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+/*Style for menu links*/
+li a {
+  display:block;
+  min-width:100px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #2f3036;
+  text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+  background: #19c589;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+  background: #f3f3f3;
+  color: #2f3036;
+  height: 40px;
+  line-height: 20px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+  background: #19c589;
+  color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+  display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+  display: block;
+  float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 10px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #19c589;
+  text-align: center;
+  padding: 5px 0;
+  display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 960px){
+  /*Make dropdown links appear inline*/
+  ul {
+    position: static;
+    display: none;
+  }
+  /*Create vertical spacing*/
+  li {
+    margin-bottom: 1px;
+  }
+  /*Make all menu links full width*/
+  ul li, li a {
+    width: 100%;
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+    display:block;
+  }
+}
+
+  /* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
 
 
  /*Media Queries
