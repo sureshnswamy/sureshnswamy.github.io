@@ -93,6 +93,13 @@
   border-radius: 0 4px 4px 0;
 }*/
 
+
+.banner {
+  background-image: url('../images/depthofcolour-B.png');
+  background-repeat:  no-repeat;
+  height:100px;
+}
+
 footer {
   clear: both;
   margin-bottom: 0;
@@ -108,10 +115,12 @@ html {
 
 body {
   font-size: 1.5em;  /*currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #ffffff; 
+  background: url('../images/highlife.jpg');
+}
 
 
  /*Typography*/
@@ -145,12 +154,19 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 .author img {
-  margin: 2%
+  margin: 0;
+  border: 1px;
 }
 
 p {
   margin-top: 0; 
-  /*overflow: hidden*/
+  overflow: hidden
+}
+
+.about {
+  color: #00000;
+  font-family: garamond;
+  font-size: 2rem;
 }
 
 a {
@@ -240,6 +256,7 @@ li a {
   color: #fff;
   background: #2f3036;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 /*Hover state for top level links*/
@@ -251,13 +268,13 @@ li:hover a {
 li:hover ul a {
   background: #f3f3f3;
   color: #2f3036;
-  height: 40px;
+  height: 20px;
   line-height: 20px;
 }
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-  background: #19c589;
+  background: #19abc5;
   color: #fff;
 }
 
@@ -291,8 +308,9 @@ ul li a:hover + .hidden, .hidden:hover {
   color: #fff;
   background: #19c589;
   text-align: center;
-  padding: 5px 0;
+  padding: 1px 0;
   display: none;
+  border-radius: 5px;
 }
 
 /*Hide checkbox*/
@@ -302,7 +320,7 @@ input[type=checkbox]{
 }
 
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+input[type=checkbox]:checked ~ #menu {
     display: block;
 }
 
