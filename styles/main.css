@@ -70,19 +70,22 @@
 
 .banner {
   background-image: url('../images/depthofcolour-B.png');
-  background-repeat:  no-repeat;
-   /*height: 100px;*/
-}
+  background-repeat: no-repeat;
+  filter: alpha(opacity = 60);
+  height: 100px;
+  opacity: .8;
+  }
 
-.banner h2 {
-  font-weight: bold;
-  font-family: 'Lucida Console', Monaco, monospace;
-  text-align: center;
-  height: 120px;
-  position: relative;
-  vertical-align: middle;
+
+.banner h1 {
   color: #bfff00;
-}
+  /*color: #3b5998;*/
+  /*font-family: 'Lucida Console', Monaco, monospace;*/
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  }
+
 
 footer {
   text-align: center;
@@ -227,7 +230,8 @@ li a {
   line-height: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  background: #2f3036;
+  background: #3b5998;
+  /*background: #2f3036;*/
   text-decoration: none;
   border-radius: 5px;
 }
@@ -247,7 +251,7 @@ li:hover ul a {
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-  background: #19abc5;
+  background: #8b9dc3;
   color: #fff;
 }
 
