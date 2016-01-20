@@ -36,7 +36,7 @@ document.getElementById('next-btn').onclick = function next(){
     var page = getFileName(hr);
     var nxtIndex =  pageList.indexOf(page) + 1 ;
     console.log(page,nxtIndex);
-    if(nxtIndex > pageList.length-1) nxtIndex=0;
+    if(nxtIndex >=pageList.length-1) nxtIndex=0;
     var redirect = 'http://sureshnswamy.github.io/blog/'+pageList[nxtIndex];
     window.location.href=redirect;
 
