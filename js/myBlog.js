@@ -37,7 +37,7 @@ document.getElementById('next-btn').onclick = function next(){
     var nxtIndex =  pageList.indexOf(hr) + 1 ;
     console.log(hr,nxtIndex);
    
-      if(nxtIndex >pageList.length) nxtIndex = 0;
+      if(nxtIndex >pageList.length-1) nxtIndex = 0;
         var redirect = pageList[nxtIndex];
         window.location.href=redirect;
     
