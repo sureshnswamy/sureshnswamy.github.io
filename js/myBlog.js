@@ -12,6 +12,7 @@ $(document).ready (function () {
                 "http://sureshnswamy.github.io/blog/c4-daily-mindfulness.html",
                 "http://sureshnswamy.github.io/blog/t4-javascript-basics.html"
                 ];
+// page file name stripper from url    ///
 
     function getFileName(url) {
     //this gets the full url
@@ -35,8 +36,7 @@ document.getElementById('next-btn').onclick = function next(){
     var hr = window.location.href;
     //var page = getFileName(hr);
     var nxtIndex =  pageList.indexOf(hr) + 1 ;
-    console.log(hr,nxtIndex);
-   
+       
       if(nxtIndex >pageList.length-1) nxtIndex = 0;
         var redirect = pageList[nxtIndex];
         window.location.href=redirect;
@@ -44,13 +44,12 @@ document.getElementById('next-btn').onclick = function next(){
     };
     
  
-
-function prev(){
-    var hr = window.location.href.splitOnLast("/");
-    var page=hr[1].replace("/","");
-    var nxtIndex =  pageArray.indexOf(page) - 1 ;
-    if(nxtIndex < 0) nxtIndex=pageArray.length-1;
-    var redirect = hr[0]+"/"+pageArray[nxtIndex];
+document.getElementById('prv-btn').onclick = function prev(){
+    var hr = window.location.href;
+    var nxtIndex =  pageList.indexOf(hr) - 1 ;
+    console.log(hr,nxtIndex);
+    if(nxtIndex < 0) nxtIndex = pageList.length-1;
+    var redirect = pageList[nxtIndex];
     window.location.href=redirect;
 }
 
