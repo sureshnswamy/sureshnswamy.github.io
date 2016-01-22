@@ -10,7 +10,8 @@ $(document).ready (function () {
                 "http://sureshnswamy.github.io/blog/t3-design-to-web-blog.html",
                 "http://sureshnswamy.github.io/blog/c3-meditation-process.html",
                 "http://sureshnswamy.github.io/blog/c4-daily-mindfulness.html",
-                "http://sureshnswamy.github.io/blog/t4-javascript-basics.html"
+                "http://sureshnswamy.github.io/blog/t4-javascript-basics.html",
+                'http://sureshnswamy.github.io/blog/c5-self-confidence.html'
                 ];
 // page file name stripper from url    ///
 
