@@ -11,7 +11,8 @@ $(document).ready (function () {
                 "http://sureshnswamy.github.io/blog/c3-meditation-process.html",
                 "http://sureshnswamy.github.io/blog/c4-daily-mindfulness.html",
                 "http://sureshnswamy.github.io/blog/t4-javascript-basics.html",
-                'http://sureshnswamy.github.io/blog/c5-self-confidence.html'
+                'http://sureshnswamy.github.io/blog/c5-self-confidence.html',
+                'http://sureshnswamy.github.io/blog/t5-problem-solving.html'
                 ];
 // page file name stripper from url    ///
 
