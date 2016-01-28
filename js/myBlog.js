@@ -3,16 +3,17 @@ $(document).ready (function () {
 
     var pageList = ["http://sureshnswamy.github.io/index.html",
                 "http://sureshnswamy.github.io/blog/c1-reflection-blog.html",
-                'http://sureshnswamy.github.io/blog/c1-time-and-habits-blog.html',
-                'http://sureshnswamy.github.io/blog/c2-emotional-intelligence.html',
+                "http://sureshnswamy.github.io/blog/c1-time-and-habits-blog.html",
+                "http://sureshnswamy.github.io/blog/c2-emotional-intelligence.html",
                 "http://sureshnswamy.github.io/blog/t2-html-css-dom-p1-blog",
                 "http://sureshnswamy.github.io/blog/t2-html-css-dom-p2-blog.html",
                 "http://sureshnswamy.github.io/blog/t3-design-to-web-blog.html",
                 "http://sureshnswamy.github.io/blog/c3-meditation-process.html",
                 "http://sureshnswamy.github.io/blog/c4-daily-mindfulness.html",
                 "http://sureshnswamy.github.io/blog/t4-javascript-basics.html",
-                'http://sureshnswamy.github.io/blog/c5-self-confidence.html',
-                'http://sureshnswamy.github.io/blog/t5-problem-solving.html'
+                "http://sureshnswamy.github.io/blog/c5-self-confidence.html",
+                "http://sureshnswamy.github.io/blog/t5-problem-solving.html",
+                "http://sureshnswamy.github.io/blog/t6-testing.html"
                 ];
 // page file name stripper from url    ///
 
