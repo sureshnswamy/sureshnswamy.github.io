@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <!-- Basic Page Needs-->
+
+  <meta charset="utf-8">
+  <title>Suresh Blog </title>
+  
+  <!-- Mobile Specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT-->
+
+  <!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'> -->
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
+
+   <!-- Javascript -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <script type="text/javascript"src="../js/myBlog.js"  ></script>
+    
+  </head>
+<body class=>
+
+  <!-- Header -->
+
+  <div class="twelve columns">
+      <div class="banner">
+         <h1 class="bannertext">Mystic Musing</h1>
+      </div>
+  </div>
+
+  <!-- nav bar -->
+
+    <div class="four columns" >
+     <label for="show-menu" class="show-menu">Menu </label>
+        <input type="checkbox" id="show-menu" role="button">
+            <ul id="menu">
+                <li><a href="#">Archive</a>
+                    <ul class="hidden">
+                       <li><a  href="http://sureshnswamy.github.io/blog/c1-reflection-blog.html">Reflection</a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/c1-time-and-habits-blog.html">Time and Habits</a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/t2-html-css-dom-p1-blog">Udacity Reflection P1</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/t2-html-css-dom-p2-blog.html">Udacity Reflection P2</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/t3-design-to-web-blog.html">Design to Web</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/c3-meditation-process.html">Meditation Process</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/c4-daily-mindfulness.html">Daily Mindfulness</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/t4-javascript-basics.html">Javascript Basics</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/c5-self-confidence.html">Self Confidence</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/t5-problem-solving.html">Problem Solving</a></a></li>
+                      <li><a  href="http://sureshnswamy.github.io/blog/t6-testing.html">Problem Solving</a></a></li>
+                    </ul>
+
+                    <li><a href="http://sureshnswamy.github.io">Home</a></li>
+                    <li><a href="mailto:sureshnswamy@gmail.com">Email me</a></li>
+                </li>
+            </ul>
+          <ul>
+    </div>
+
+  <!-- section  -->
+
+   <div class="eight columns">
+
+      <h3 class="indextitle"><b>Testing</b> </h3>   
+
+
+      <h3> What 'scope' is, and how it works in javascript?</h3>
+      
+      <p>Scope refers to the variables declaration location and its accessibility at various parts of the program. JavaScript has two scopes – <i>global</i> and <i>local</i>. Any variable declared outside of a function belongs to the global scope, and is therefore accessible from anywhere in your code. Each function has its own scope, and any variable declared within that function  belongs to local scope, is only accessible from that function and any nested functions. Because local scope in JavaScript is created by functions, it’s also called function scope. When we put a function inside another function, then we create nested scope.  </p>   
+
+      <h4> Use of parentheses ()</h4>
+
+      <p> Basically the parentheses are a convention to denote a function call in javascript. Also it is used to surround conditional statements, for grouping to enforce Order of Operations and to send and receive parameters.</p>
+
+      <p>Function declaration example:<br><br>
+          
+          function example ( ) { <br>
+            return value;<br>
+          }<br>
+
+      </p>
+      <p>Function expression example:<br><br>
+          
+          var a = function example () {        //named function expression<br>
+            return value;<br>
+          }<br><br>
+
+          var a = function ()) {         //anonymous function expression<br>
+            return value;<br>
+          }<br>
+      </p>
+        <h4> Use of brackets[ ]</h4>
+          <p>Square brackets are typically mostly used for accessing the properties of an Object (or the elements of an Array), so mylist[2] fetches the third  element in the Array.</p>
+
+        <h4> Use of braces { }</h4>
+
+        <p>The curly braces are used to define the start and end of the function, they also separate conditional blocks, loops etc, within the function. Also it is used for arrays with objects or declaration of Object Literals.</p>
+
+      <h4> Use of single and double quotes</h4>
+      <p>Whether it is single or double it is used to declare a string in Javascript. It is a programmer preference but has to be consistent. However, Double quotes eliminate the need to escape apostrophes (as in contractions). Consider the string: "I'm Suresh", vs. the otherwise escaped version: 'I\'m Suresh'.<br><br>
+
+      JASON strings must be double quoted.  </p>
+      
+        <br>
+        <br>
+        
+     
+        <p>Posted: 29 Jan 2016  </p1>
+ 
+          <br><br>
+    
+  </div>
+  
+ <div class="six columns" id='previous-page'>
+  
+    <button class="myButton" id="prv-btn">Previous</button>
+
+      <div class="one columns"><p> </p> </div>
+ 
+    <button class="myButton" id="next-btn">Next</button>
+  
+  </div>
+ 
+  
+  
+<!-- Footer -->
+<footer class="four columns offset-by-two column">
+  <p>© 2016 Suresh Swamy @Dev Academy NZ</p>
+</footer>
+
+
+<!-- End Document-->
+</body>
+</html>
+
+ 
