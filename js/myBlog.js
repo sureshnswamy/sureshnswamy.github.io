@@ -13,7 +13,8 @@ $(document).ready (function () {
                 "http://sureshnswamy.github.io/blog/t4-javascript-basics.html",
                 "http://sureshnswamy.github.io/blog/c5-self-confidence.html",
                 "http://sureshnswamy.github.io/blog/t5-problem-solving.html",
-                "http://sureshnswamy.github.io/blog/t6-testing.html"
+                "http://sureshnswamy.github.io/blog/t6-testing.html",
+                "http://sureshnswamy.github.io/blog/c6-control.html"
                 ];
 // page file name stripper from url    ///
 
