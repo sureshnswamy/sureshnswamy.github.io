@@ -15,7 +15,8 @@ $(document).ready (function () {
                 "http://sureshnswamy.github.io/blog/t5-problem-solving.html",
                 "http://sureshnswamy.github.io/blog/t6-testing.html",
                 "http://sureshnswamy.github.io/blog/c6-control.html",
-                "http://sureshnswamy.github.io/blog/c7-motivation.html"
+                "http://sureshnswamy.github.io/blog/c7-motivation.html",
+                "http://sureshnswamy.github.io/blog/t7-racer-game-calculator.html"
                 ];
 // page file name stripper from url    ///
 
